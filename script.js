@@ -344,7 +344,7 @@
   const books = document.getElementById('books');
   const btnViewMode = document.getElementById('btn-view-mode');
 
-  function listlViewMode() {
+  function createlistlView() {
     items.forEach(item => {
       const divContainer = document.createElement('div');
       const img = document.createElement('img');
@@ -375,7 +375,7 @@
     bookListContainer.appendChild(clone);
   }
 
-  function gripViewMode() {
+  function createGripView() {
     items.forEach(item => {
       let divContainer = document.createElement('div');
       let img = document.createElement('img');
@@ -402,23 +402,26 @@
     });
   }
 
-  btnViewMode.onclick = function() {
-    const viewMode = bookListContainer.style.display;
-
-    if (viewMode == 'block') {
-      books.style.animationPlayState = 'paused';
-      bookListContainer.style.display = 'none';
-      bookGridContainer.style.display = 'grid';
-    } else {
-      books.style.animationPlayState = 'running';
-      bookListContainer.style.display = 'block';
-      bookGridContainer.style.display = 'none';
+  function AddViewModeControl() {
+    btnViewMode.onclick = function() {
+      const viewMode = bookListContainer.style.display;
+  
+      if (viewMode == 'block') {
+        books.style.animationPlayState = 'paused';
+        bookListContainer.style.display = 'none';
+        bookGridContainer.style.display = 'grid';
+      } else {
+        books.style.animationPlayState = 'running';
+        bookListContainer.style.display = 'block';
+        bookGridContainer.style.display = 'none';
+      }
     }
   }
 
   function main() {
-    listlViewMode();
-    gripViewMode();
+    createlistlView();
+    createGripView();
+    AddViewModeControl();
   }
 
   main();
