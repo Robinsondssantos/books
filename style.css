@@ -49,6 +49,10 @@ body {
   text-align: center;
   text-wrap: balance;
   padding: 0px 32px;
+  transform: rotate(-2deg);
+  /* background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .book-list {
@@ -56,6 +60,7 @@ body {
   /* white-space: nowrap;  */
   overflow: hidden;
   background-image: linear-gradient(#fff, #f0f0f2);
+  /* background-color: red; */
   padding-top: 24px;
 }
 
@@ -173,3 +178,17 @@ footer {
   font-size: 24px;
   font-weight: 700;
 } */
+
+.actions {
+  display: flex;
+  justify-content: end;
+  padding: 0.5rem;
+  background-color: red;
+
+}
+
+
+.actions button {
+  padding: 0 0.5rem;
+  border-radius: 0;
+}
