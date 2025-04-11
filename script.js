@@ -1,10 +1,82 @@
 (function() {
   const items = [
     { 
-      src: "./img/Trabalhe 4 horas por semana - Timothy Ferriss.jpeg", 
-      alt: "Trabalhe 4 horas por semana - Timothy Ferriss",      
-      title: "Trabalhe 4 horas por semana",
-      author: "Timnothy Ferriss",
+      src: "./img/Inspired - How to create tech products customers love - Marty Cagan.jpg", 
+      alt: "Inspired - How to create tech products customers love - Marty Cagan",
+      title: "Inspired - How to create tech products customers love",
+      author: "Marty Cagan",
+    },
+    { 
+      src: "./img/Shape Up - Stop Running in Circles and Ship Work that Matters - Ryan Singer.jpg", 
+      alt: "Shape Up - Stop Running in Circles and Ship Work that Matters - Ryan Singer",
+      title: "Shape Up - Stop Running in Circles and Ship Work that Matters",
+      author: "Ryan Singer",
+    },
+    { 
+      src: "./img/Estatística - O que é Para que serve Como funciona - Charles Wheelan.jpg", 
+      alt: "Estatística - O que é? Para que serve? Como funciona? - Charles Wheelan",
+      title: "Estatística - O que é? Para que serve? Como funciona?",
+      author: "Charles Wheelan",
+    },
+    { 
+      src: "./img/Código limpo: Habilidades práticas do Agile Software - Robert C. Martin.jpg", 
+      alt: "Código limpo: Habilidades práticas do Agile Software - Robert C. Martin",
+      title: "Código limpo: Habilidades práticas do Agile Software",
+      author: "Robert C. Martin",
+    },
+    { 
+      src: "./img/O codificador limpo - Robert C. Martin.jpg", 
+      alt: "O codificador limpo - Robert C. Martin",
+      title: "O codificador limpo",
+      author: "Robert C. Martin",
+    },
+    { 
+      src: "./img/Arquitetura limpa: O guia do artesão para estrutura e design de software -  Robert C. Martin.jpg", 
+      alt: "Arquitetura limpa: O guia do artesão para estrutura e design de software -  Robert C. Martin",
+      title: "Arquitetura limpa: O guia do artesão para estrutura e design de software",
+      author: "Robert C. Martin",
+    },
+    { 
+      src: "./img/Migrando sistemas monolíticos para microsserviços - Sam Newman.jpg", 
+      alt: "Migrando sistemas monolíticos para microsserviços - Sam Newman",
+      title: "Migrando sistemas monolíticos para microsserviços",
+      author: "Sam Newman",
+    },
+    { 
+      src: "./img/Test-Driven Development - Teste e Design no mundo real com Java - Maurício Aniche.jpg", 
+      alt: "Test-Driven Development - Teste e Design no mundo real com Java - Maurício Aniche",
+      title: "Test-Driven Development - Teste e Design no mundo real com Java",
+      author: "Maurício Aniche",
+    },
+    { 
+      src: "./img/Storytelling com dados: Um guia sobre visualização de dados para profissionais de negócios - Cole Nussbaumer Knaflic.jpg", 
+      alt: "Storytelling com dados: Um guia sobre visualização de dados para profissionais de negócios - Cole Nussbaumer Knaflic",
+      title: "Storytelling com dados: Um guia sobre visualização de dados para profissionais de negócios",
+      author: "Cole Nussbaumer Knaflic",
+    },
+    { 
+      src: "./img/Desconstruindo a Web - Willian Molinari.jpg", 
+      alt: "Desconstruindo a Web - Willian Molinari",
+      title: "Desconstruindo a Web",
+      author: "Willian Molinari",
+    },
+    { 
+      src: "./img/Sprint - O método usado no Google para testar e aplicar novas ideias em apenas cinco dias - Jake Knapp, John Zeratsky, Braden Kowitz.jpg", 
+      alt: "Sprint - O método usado no Google para testar e aplicar novas ideias em apenas cinco dias - Jake Knapp, John Zeratsky, Braden Kowitz",
+      title: "Sprint - O método usado no Google para testar e aplicar novas ideias em apenas cinco dias",
+      author: "Jake Knapp, John Zeratsky, Braden Kowitz",
+    },
+    { 
+      src: "./img/O último teorema de Fermat - Simon Singh.jpg", 
+      alt: "O último teorema de Fermat - Simon Singh",
+      title: "O último teorema de Fermat",
+      author: "Simon Singh",
+    },
+    { 
+      src: "./img/Rápido e Devagar - Daniel Kahneman.jpg", 
+      alt: "Rápido e Devagar - Daniel Kahneman",
+      title: "Rápido e Devagar",
+      author: "Daniel Kahneman",
     },
     { 
       src: "./img/Steve Jobs - Walter Isaacson.jpeg", 
@@ -59,25 +131,13 @@
       alt: "A lógica do cisne negro - Nassim Nicholas Taleb",
       title: "A lógica do cisne negro",
       author: "Nassim Nicholas Taleb",
-    },    
-    { 
-      src: "./img/Desconstruindo a Web - Willian Molinari.jpg", 
-      alt: "Desconstruindo a Web - Willian Molinari",
-      title: "Desconstruindo a Web",
-      author: "Willian Molinari",
-    },    
+    },       
     { 
       src: "./img/Antifrágil - Nassim Nicholas Taleb.jpg", 
       alt: "Antifrágil - Nassim Nicholas Taleb",
       title: "Antifrágil",
       author: "Nassim Nicholas Taleb",
-    },    
-    { 
-      src: "./img/O último teorema de Fermat - Simon Singh.jpg", 
-      alt: "O último teorema de Fermat - Simon Singh",
-      title: "O último teorema de Fermat",
-      author: "Simon Singh",
-    },    
+    },   
     { 
       src: "./img/As 48 leis do poder - Robert Greene.jpg", 
       alt: "As 48 leis do poder - Robert Greene",
@@ -109,12 +169,6 @@
       author: "Napoleon Hill",
     },      
     { 
-      src: "./img/Rápido e Devagar - Daniel Kahneman.jpg", 
-      alt: "Rápido e Devagar - Daniel Kahneman",
-      title: "Rápido e Devagar",
-      author: "Daniel Kahneman",
-    },
-    { 
       src: "./img/O lado difícil das situações difíceis - Ben Horowitz.jpg", 
       alt: "O lado difícil das situações difíceis - Ben Horowitz",
       title: "O lado difícil das situações difíceis",
@@ -131,18 +185,6 @@
       alt: "A guerra do Cálculo - Jason Socrates Bardi",
       title: "A guerra do Cálculo",
       author: "Jason Socrates Bardi",
-    },
-    { 
-      src: "./img/O codificador limpo - Robert C. Martin.jpg", 
-      alt: "O codificador limpo - Robert C. Martin",
-      title: "O codificador limpo",
-      author: "Robert C. Martin",
-    },
-    { 
-      src: "./img/Sprint - O método usado no Google para testar e aplicar novas ideias em apenas cinco dias - Jake Knapp, John Zeratsky, Braden Kowitz.jpg", 
-      alt: "Sprint - O método usado no Google para testar e aplicar novas ideias em apenas cinco dias - Jake Knapp, John Zeratsky, Braden Kowitz",
-      title: "Sprint - O método usado no Google para testar e aplicar novas ideias em apenas cinco dias",
-      author: "Jake Knapp, John Zeratsky, Braden Kowitz",
     },
     { 
       src: "./img/1499 : O Brasil antes de Cabral - Reinaldo José Lopes.jpg", 
@@ -163,22 +205,10 @@
       author: "Nassim Nicholas Taleb",
     },
     { 
-      src: "./img/Inspired - How to create tech products customers love - Marty Cagan.jpg", 
-      alt: "Inspired - How to create tech products customers love - Marty Cagan",
-      title: "Inspired - How to create tech products customers love",
-      author: "Marty Cagan",
-    },
-    { 
       src: "./img/A Mentalidade Anticapitalista - Ludwig Von Mises.jpg", 
       alt: "A Mentalidade Anticapitalista - Ludwig Von Mises",
       title: "A Mentalidade Anticapitalista",
       author: "Ludwig Von Mises",
-    },
-    { 
-      src: "./img/Estatística - O que é Para que serve Como funciona - Charles Wheelan.jpg", 
-      alt: "Estatística - O que é? Para que serve? Como funciona? - Charles Wheelan",
-      title: "Estatística - O que é? Para que serve? Como funciona?",
-      author: "Charles Wheelan",
     },
     {
       src: "./img/Do zero ao infinito (e além) - Mike Goldsmith.jpg", 
@@ -203,12 +233,6 @@
       alt: "O Jeito Peter Lynch de investir - Peter Lynch",
       title: "O Jeito Peter Lynch de investir",
       author: "Peter Lynch",
-    },
-    { 
-      src: "./img/Migrando sistemas monolíticos para microsserviços - Sam Newman.jpg", 
-      alt: "Migrando sistemas monolíticos para microsserviços - Sam Newman",
-      title: "Migrando sistemas monolíticos para microsserviços",
-      author: "Sam Newman",
     },
     { 
       src: "./img/Gatilhos mentais - Gustavo Ferreira.jpeg", 
@@ -239,13 +263,7 @@
       alt: "Na raça: como Guilherme Benchimol criou a XP e iniciou a maior revolução do mercado financeiro brasileiro - Maria Luíza Filgueiras",
       title: "Na raça: como Guilherme Benchimol criou a XP e iniciou a maior revolução do mercado financeiro brasileiro",
       author: "Maria Luíza Filgueiras",
-    },
-    { 
-      src: "./img/Storytelling com dados: Um guia sobre visualização de dados para profissionais de negócios - Cole Nussbaumer Knaflic.jpg", 
-      alt: "Storytelling com dados: Um guia sobre visualização de dados para profissionais de negócios - Cole Nussbaumer Knaflic",
-      title: "Storytelling com dados: Um guia sobre visualização de dados para profissionais de negócios",
-      author: "Cole Nussbaumer Knaflic",
-    },      
+    },    
     { 
       src: "./img/Vicente Falconi - O que importa é resultado - Cristiane Correa.jpg", 
       alt: "Vicente Falconi - O que importa é resultado - Cristiane Correa",
@@ -265,12 +283,6 @@
       author: "Joel Greenblatt",
     },
     { 
-      src: "./img/Código limpo: Habilidades práticas do Agile Software - Robert C. Martin.jpg", 
-      alt: "Código limpo: Habilidades práticas do Agile Software - Robert C. Martin",
-      title: "Código limpo: Habilidades práticas do Agile Software",
-      author: "Robert C. Martin",
-    },
-    { 
       src: "./img/Start with Why: How Great Leaders Inspire Everyone to Take Action - Simon Sinek.jpg", 
       alt: "Start with Why: How Great Leaders Inspire Everyone to Take Action - Simon Sinek",
       title: "Start with Why: How Great Leaders Inspire Everyone to Take Action",
@@ -282,21 +294,9 @@
       author: "Hans Rosling with Ola Rosling and Anna Rosling Rönnlund",
     },
     { 
-      src: "./img/Arquitetura limpa: O guia do artesão para estrutura e design de software -  Robert C. Martin.jpg", 
-      alt: "Arquitetura limpa: O guia do artesão para estrutura e design de software -  Robert C. Martin",
-      title: "Arquitetura limpa: O guia do artesão para estrutura e design de software",
-      author: "Robert C. Martin",
-    },
-    { 
       src: "./img/Product Backlog Building: Um guia prático para criação e refinamento de backlog para produtos de sucesso -  Fábio Aguiar (Autor), Paulo Caroli (Autor).jpg", alt: "Product Backlog Building: Um guia prático para criação e refinamento de backlog para produtos de sucesso -  Fábio Aguiar, Paulo Caroli",
       title: "Product Backlog Building: Um guia prático para criação e refinamento de backlog para produtos de sucesso",
       author: "Fábio Aguiar, Paulo Caroli",
-    },
-    { 
-      src: "./img/Test-Driven Development - Teste e Design no mundo real com Java - Maurício Aniche.jpg", 
-      alt: "Test-Driven Development - Teste e Design no mundo real com Java - Maurício Aniche",
-      title: "Test-Driven Development - Teste e Design no mundo real com Java",
-      author: "Maurício Aniche",
     },
     { 
       src: "./img/The Start-Up of You - Reid Hoffman  and Ben Casnocha.jpg", 
@@ -329,17 +329,17 @@
       author: "Bastter.com",
     },
     { 
-      src: "./img/Shape Up - Stop Running in Circles and Ship Work that Matters - Ryan Singer.jpg", 
-      alt: "Shape Up - Stop Running in Circles and Ship Work that Matters - Ryan Singer",
-      title: "Shape Up - Stop Running in Circles and Ship Work that Matters",
-      author: "Ryan Singer",
-    },
-    { 
       src: "./img/Inventar & vagar: princípios e filosofias da Amazon e Blue Origin - Walter Isaacson.jpg", 
       alt: "Inventar & vagar: princípios e filosofias da Amazon e Blue Origin - Walter Isaacson",
       title: "Inventar & vagar: princípios e filosofias da Amazon e Blue Origin",
       author: "Walter Isaacson",
     },
+    { 
+      src: "./img/Trabalhe 4 horas por semana - Timothy Ferriss.jpeg", 
+      alt: "Trabalhe 4 horas por semana - Timothy Ferriss",      
+      title: "Trabalhe 4 horas por semana",
+      author: "Timnothy Ferriss",
+    }
   ];
 
   const bookListContainer = document.getElementById('book-list-container');
